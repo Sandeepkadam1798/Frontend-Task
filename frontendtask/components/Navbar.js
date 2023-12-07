@@ -1,14 +1,15 @@
 import React from "react";
-import  { logo } from "../public/logo.png"
+import   logo  from "../public/logo.png"
+import Image from "next/image";
 
 
 const Navbar = () => {
   return (
     <>
       <div class="flex flex:row justify-evenly ">
-        <div class="w-[1440px] h-[108px] px-20 pt-2 bg-white bg-opacity-60 backdrop-blur-[32px] justify-between items-center inline-flex">
-          <img
-            class="w-[200px] h-[auto] "
+        <div class="w-[1440px] h-[108px] px-20 pt-8 bg-white bg-opacity-60 backdrop-blur-[32px] justify-between items-center inline-flex">
+          <Image
+            class="w-[200px] h-auto "
             src= {logo}
             alt="logo"
           />
